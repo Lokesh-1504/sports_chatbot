@@ -1,0 +1,110 @@
+{
+    "intents": [
+        {
+            "tag": "sports_greeting",
+            "patterns": [
+                "Hello", "Hi", "Hey", "Good morning", "Good evening",
+                "Howdy", "Greetings", "What's up?", "How's it going?", "Hey there"
+            ],
+            "responses": [
+                "Hello sports fan!", "Hi there!", "Hey! Ready for some sports updates?", "Good to see you!", "Howdy! Let's talk sports."
+            ]
+        },
+        {
+            "tag": "sports_goodbye",
+            "patterns": [
+                "Bye", "See you later", "Goodbye", "Take care", "Catch you later",
+                "Farewell", "See ya", "I'm out", "Talk to you later", "Later"
+            ],
+            "responses": [
+                "Goodbye! Catch you at the next game.", "See you later!", "Take care! Stay sporty.", "Catch you later!", "Farewell!"
+            ]
+        },
+        {
+            "tag": "sports_thanks",
+            "patterns": [
+                "Thanks", "Thank you", "Thanks a lot", "Much appreciated", "Thank you very much",
+                "Thanks so much", "I appreciate it", "Thanks a bunch", "Thanks for your help", "Thanks a million"
+            ],
+            "responses": [
+                "You're welcome!", "No problem! Anytime you need sports updates.", "My pleasure!", "Anytime!", "Glad to help!"
+            ]
+        },
+        {
+            "tag": "sports_news",
+            "patterns": [
+                "What's the latest sports news?", "Tell me sports news", "Update me on sports",
+                "Any sports news?", "What's new in sports?", "Latest sports updates", "What's happening in sports?",
+                "Sports headlines", "Recent sports news", "Sports news update"
+            ],
+            "responses": [
+                "Here is the latest sports news...", "Here's what's happening in sports...", "Latest sports updates coming right up...",
+                "These are the latest headlines in sports...", "Here are the recent sports news..."
+            ]
+        },
+        {
+            "tag": "sports_scores",
+            "patterns": [
+                "What's the score of the game?", "Tell me the latest scores", "What's the score?",
+                "Any updates on the game score?", "Game scores update", "Latest match scores", "Current game score",
+                "Score update please", "What's the current score?", "Can you tell me the score?"
+            ],
+            "responses": [
+                "Here are the latest scores...", "These are the current game scores...", "Latest match scores coming right up...",
+                "Here are the scores for the latest games...", "Here's the score update..."
+            ]
+        },
+        {
+            "tag": "player_stats",
+            "patterns": [
+                "Tell me about player stats", "Player statistics", "What are the stats for player X?",
+                "Player X stats", "How is player X performing?", "Player X performance stats", "Can you show player stats?",
+                "Latest stats for player X", "Player X's recent performance", "Update me on player stats"
+            ],
+            "responses": [
+                "Here are the stats for the player...", "These are the latest stats for the player...", "Player's performance stats coming right up...",
+                "Here are the recent stats for the player...", "Here's the performance update for the player..."
+            ]
+        },
+        {
+            "tag": "team_info",
+            "patterns": [
+                "Tell me about team X", "Team X information", "Details about team X",
+                "How is team X doing?", "Team X performance", "Can you show team info?",
+                "Latest info on team X", "Team X's recent performance", "Update me on team X"
+            ],
+            "responses": [
+                "Here is the information about team X...", "These are the latest details about team X...", "Team X performance details coming right up...",
+                "Here is the recent information on team X...", "Here's the performance update for team X..."
+            ]
+        },
+        {
+            "tag": "upcoming_matches",
+            "patterns": [
+                "What are the upcoming matches?", "Tell me the next games", "Upcoming sports events",
+                "Next sports matches", "What games are coming up?", "Future sports matches",
+                "Schedule of upcoming matches", "Next sports events", "Upcoming sports schedule"
+            ],
+            "responses": [
+                "Here are the upcoming matches...", "These are the next games on the schedule...", "Upcoming sports events coming right up...",
+                "Here is the schedule for the upcoming matches...", "Here's what's coming up in sports..."
+            ]
+        },
+        {
+            "tag": "sports_trivia",
+            "patterns": [
+                "Tell me a sports trivia", "I want to hear sports trivia", "Do you know any sports trivia?",
+                "Can you share some sports trivia?", "I need sports trivia", "Sports trivia please",
+                "Give me a sports trivia", "Share some sports trivia with me", "Any interesting sports trivia?",
+                "Tell me something interesting about sports"
+            ],
+            "responses": [
+                "Did you know that the Olympic Games were originally a religious festival?", 
+                "Here's a trivia: The first basketball game was played with a soccer ball.",
+                "Did you know that golf is the only sport to have been played on the moon?",
+                "Here's a fun fact: The longest tennis match lasted 11 hours and 5 minutes.",
+                "Did you know that the average lifespan of a major league baseball is just 7 pitches?"
+            ]
+        }
+    ]
+}
